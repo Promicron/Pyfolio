@@ -1,0 +1,15 @@
+{
+  "name": "pyro-port",
+  "version": "1.0.0",
+  "main": "base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "parcel": "^2.6.2"
+  }
+}

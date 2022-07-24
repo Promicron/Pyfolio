@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body class="bg-light">
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title fw-bold text-success" id="staticBackdropLabel">Welcome to Pyro Portfolio ! </h5>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body">
+                <h4 class="text-center">Fill the form and let's set you up.</h3>
+                <form action="" onsubmit="Register()" id="form">
+                    <div class="container row ">
+                      <div class="mb-3">
+                        <label for="username" class="form-label fw-bold fs-5">Name</label>
+                        <input type="text" class="form-control py-2" id="name" name="username" placeholder="Name" required>  
+                      </div>
+                      <div class="mb-3">
+                        <label for="user-image" class="form-label fw-bold fs-5">User Image</label>
+                        <input type="file" class="form-control py-2" name="user-image" id="userImage" placeholder="User Image">
+                      </div>
+                      <div class="mb-3">
+                        <label for="profession" class="form-label fw-bold fs-5">Profession</label>
+                        <input type="text" class="form-control py-2" name="profession" id="profession" placeholder="Profession" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="user-desc" class="form-label fw-bold fs-5">About</label>
+                        <textarea class="form-control" id="userDesc" rows="5" placeholder="Write a brief intoduction or comment "></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <label for="sample-filename" class="form-label fw-bold fs-5">Show your works</label>
+                        <input type="text" class="form-control py-2" name="sample-filename" id="" placeholder="Work Title">
+                        <label for="sample-filename" class="form-label fw-bold fs-5 pt-2">Work Description</label>
+                        <textarea class="form-control" id="user-desc" rows="5" placeholder="Write a description of your work or a comment. "></textarea>
+                        <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload an image</label>
+                        <input type="file" class="form-control py-2" name="sample-file" id="" >
+                        <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload a file</label>
+                        <input type="file" class="form-control py-2" name="sample-file" id="" placeholder="Uplaod file">
+                      </div>
+                      <!-- <button type="button" class="btn btn-success my-3 w-100">Submit</button>                           -->
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            <a href="#">
+                <button type="submit" onclick="Register()" class="btn btn-success">Submit</button>
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>       
+        $(window).load(function(){
+                $('#staticBackdrop').modal('show');
+            });
+    </script>
+    <script type="module" src="base.js"></script>
+</body>
+</html>

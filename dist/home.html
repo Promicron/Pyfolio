@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Dashboard</title>
+    <link rel="stylesheet" href="/index.61d3354a.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        
+    </div>
+    <!-- End of prelaoder -->
+
+    <i class="bi bi-list mobile-nav-toggle d-xl-none bg-success" id="toggleBtn"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="side-bar bg-success">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="/profile-img.fba0efcc.jpg" alt="user image" class="rounded-circle user-image text-center">
+        <h1 class="text-center "><a id="userName" href="/home.html" class=" userName text-decoration-none text-white fw-bolder text-center">Lord Pyro</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="contact-link twitter">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="#" class="contact-link facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="contact-link instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" class="contact-link google-plus">
+            <i class="bi bi-skype"></i>
+          </a>
+          <a href="#" class="contact-link linkedin">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar p-4">
+        <ul>
+            <li>
+                <a href="#hero" class="nav-link scrollto active">
+                    <i class="bi bi-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio" class="nav-link scrollto">
+                    <i class="bi bi-book"></i> 
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link scrollto">
+                    <i class="bi bi-envelope"></i> 
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="/user-view.html" class="nav-link scrollto">
+                    <i class="bi bi-person"></i> 
+                    <span>User View</span>
+                </a>
+            </li>
+            <li class="mt-5">
+                <button class="btn btn-light nav-link scrollto dropdown-toggle text-success" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                    <i class="bi bi-share"></i> 
+                    <span class="text-success px-2">Share Portfolio</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="http://twitter.com/home?status=MESSAGE+URL" title="Share to Twitter">
+                    <i class="bi bi-twitter"></i> Twitter
+                  </a>
+                  </li>
+                  <li><a class="dropdown-item" href="http://www.facebook.com/sharer.php?u=ENTER URL=TITLE" title="Share to Facebook">
+                    <i class="bi bi-facebook"></i> Facebook
+                  </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="bi bi-instagram"></i> Instagram
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="bi bi-whatsapp"></i> Whatsapp
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="bi bi-email"></i> Email
+                  </a></li>
+                </ul>
+            </li>
+            <li class="mt-5">
+                <a href="/update.html" class="nav-link btn btn-light py-1">
+                  <i class="bi bi-gear text-success"></i> 
+                  <span class="text-success">Edit Portfolio</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+  
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container">
+          <h1 class="userName text-white fw-bolder display-2" id="userName">Lord Pyro</h1>
+          <p class="text-white display-4">I'm a 
+              <span class="profession text-success fw-bold" id="profession">Musician</span> 
+          </p>
+        </div>
+    </section><!-- End Hero -->
+
+    
+    <div id="main">
+
+        <section class="info-section p-3" id="portfolio">
+            <div class="container justify-content-center">
+                <img src="/profile-img.fba0efcc.jpg" alt="user image" class="rounded-circle user-image">
+                <h2 id="userName" class=" userName fw-bolder text-success text-center display-3">Lord Pyro</h2>
+                <h4 id="profession" class=" profession fw-bold text-center mx-1 display-6">Musician</h4>
+                <!-- <textarea class="form-control" id="user-desc" rows="6" placeholder="Write a brief intoduction or comment "></textarea> -->
+    
+                <p id="userAbout" class="p-2 fs-5 userAbout text-center">I'm a student of Redeemers' University, Ede. 
+                    I play Guitar and sing excellently. My vision is to make music 
+                    a means of commnunication.
+                </p>
+            </div>
+            <h2 class="text-center fw-bolder py-3">My Works</h2>
+            <!-- work cards -->
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img id="" src="/up_/assets/img/portfolio/portfolio-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-success" id="card-name1">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <div class="sample-file">
+                        <span class="file fs-5 text-success" id="file">Pyro Lored</span>
+                        <a href="/up_/assets/img/portfolio/portfolio-1.jpg" download="gg">
+                            <i class="bi bi-download btn p-0 fs-4 float-end text-success"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/up_/assets/img/portfolio/portfolio-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-success" id="card-name2">Lord by Pyro</h5>
+                      <p class="card-text">This is a short card.</p>
+                      <div class="sample-file">
+                        <span class="file fs-5 text-success" id="file">Pyro Lored</span>
+                        <a href="/up_/assets/img/portfolio/portfolio-2.jpg" download="gg">
+                            <i class="bi bi-download btn p-0 fs-4 float-end text-success"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/up_/assets/img/portfolio/portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-success" id="card-name3">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <div class="sample-file">
+                        <span class="file fs-5 text-success" id="file">Pyro Lored</span>
+                            <a href="/up_/assets/img/portfolio/portfolio-3.jpg" download="gg">
+                                <i class="bi bi-download btn p-0 fs-4 float-end text-success"></i>
+                            </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/portfolio-6.0e684e09.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-success" id="card-name4">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="sample-file">
+                        <span class="file fs-5 text-success" id="file">Pyro Lored</span>
+                        <a href="/up_/assets/img/portfolio/portfolio-7.jpg" download="gg">
+                            <i class="bi bi-download btn p-0 fs-4 float-end text-success"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                </div>
+                <div class="col">
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title fw-bold text-success" id="exampleModalLabel">New work card</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="mb-3">
+                            <label for="sample-filename" class="form-label fw-bold fs-5">Show your works</label>
+                            <input type="text" class="form-control py-2" name="sample-filename" id="" placeholder="Work Title" required="">
+                            <label for="sample-filename" class="form-label fw-bold fs-5 pt-2">Work Description</label>
+                            <textarea class="form-control" id="user-desc" rows="5" placeholder="Write a description of your work or a comment. "></textarea>
+                            <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload an image</label>
+                            <input type="file" class="form-control py-2" name="sample-file" id="" required="">
+                            <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload a file</label>
+                            <input type="file" class="form-control py-2" name="sample-file" id="" placeholder="Uplaod file">
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-success" onclick="addCard()">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-success">
+                    <div class="card-body text-center py-auto">
+                      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                      </button> -->
+                        <button type="button" class="border-0 btn">
+                          <i class="bi bi-plus border-0 display-2 text-success" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+              </section></div>
+              
+        
+        <!-- End Section -->
+
+        <!-- Contact Container -->
+        <section id="contact" class="">
+            <div class="container justify-content-center bg-success p-3">
+                <h2 class="text-white text-center">Contact</h2>
+                <div class="social-links mt-3 text-center">
+                    <a href="#" class="contact-link twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="contact-link facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="contact-link instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="contact-link google-plus"><i class="bi bi-skype"></i></a>
+                    <a href="#" class="contact-link linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    
+    <script>let loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+    loader.style.display = "none";
+});
+
+</script>
+    <script>let togglebtn = document.getElementById("toggleBtn");
+window.addEventListener("load", function() {
+    togglebtn.style.display = "inline-flex";
+});
+
+</script>
+    <script src="/user-view.9a9f1e5e.js" defer=""></script>
+    <script src="/user-view.44983732.js"></script>
+</body>
+</html>
