@@ -57,13 +57,6 @@ function addCard(upcardTitle, upcardDesc, upcardFile, upcardFilepath, upcardImg)
     cardRow.innerHTML = cardRowContent;
     document.querySelector(".row").appendChild(cardRow);
 // document.body.appendChild(cardRow);
-} //   export const select = (el, all = false) => {
- //   el = el.trim()
- //   if (all) {
- //     return [...document.querySelectorAll(el)]
- //   } else {
- //     return document.querySelector(el)
- //   }
- // }
+}
 
 //# sourceMappingURL=user-view.44983732.js.map

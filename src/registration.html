@@ -22,7 +22,7 @@
             </div>
             <div class="modal-body">
                 <h4 class="text-center">Fill the form and let's set you up.</h3>
-                <form action="" onsubmit="Register()" id="form">
+                <form  id="form">
                     <div class="container row ">
                       <div class="mb-3">
                         <label for="username" class="form-label fw-bold fs-5">Name</label>
@@ -42,32 +42,38 @@
                       </div>
                       <div class="mb-3">
                         <label for="sample-filename" class="form-label fw-bold fs-5">Show your works</label>
-                        <input type="text" class="form-control py-2" name="sample-filename" id="" placeholder="Work Title">
+                        <input type="text" class="form-control py-2" name="sample-filename" id="works" placeholder="Work Title">
                         <label for="sample-filename" class="form-label fw-bold fs-5 pt-2">Work Description</label>
                         <textarea class="form-control" id="user-desc" rows="5" placeholder="Write a description of your work or a comment. "></textarea>
                         <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload an image</label>
-                        <input type="file" class="form-control py-2" name="sample-file" id="" >
+                        <input type="file" class="form-control py-2" name="sample-file" id="uploadImage" >
                         <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload a file</label>
                         <input type="file" class="form-control py-2" name="sample-file" id="" placeholder="Uplaod file">
                       </div>
                       <!-- <button type="button" class="btn btn-success my-3 w-100">Submit</button>                           -->
                     </div>
-                  </form>
+                  
             </div>
             <div class="modal-footer">
             <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-            <a href="#">
-                <button type="submit" onclick="Register()" class="btn btn-success">Submit</button>
-            </a>
+              <a href="./home.html">
+                <button type="submit" class="btn btn-success" id="subBtn">Submit</button>
+              </a>
             </div>
+          </form>
         </div>
         </div>
     </div>
+    <script>
+      subBtn.addEventListener("click", () => {
+
+      })
+    </script>
     <script>       
         $(window).load(function(){
                 $('#staticBackdrop').modal('show');
             });
     </script>
-    <script type="module" src="base.js"></script>
+    <script type="module" src="./reg.js"></script>
 </body>
 </html>

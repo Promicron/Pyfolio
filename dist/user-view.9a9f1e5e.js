@@ -532,6 +532,10 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"5f1PK":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "table", ()=>table);
+parcelHelpers.export(exports, "getRecords", ()=>getRecords);
 // import Airtable from 'airtable';
 var Airtable = require("airtable");
 // const { select } = require('../main');
@@ -543,65 +547,41 @@ const getRecords = async ()=>{
     const records = await table.select().firstPage();
     // console.log(records);
     // document.getElementsByClassName('table-section');
-    // console.log(records);
+    console.log(records);
     // records.forEach(record => (
     // ))
-    [
-        ...document.querySelectorAll(".userName")
-    ].forEach((item)=>{
-        item.innerText = records[1].fields?.Username;
-    });
-    [
-        ...document.querySelectorAll(".profession")
-    ].forEach((item)=>{
-        item.innerText = records[1].fields?.Profession;
-    });
-    // document.querySelector('.userAbout').innerText = records[1].fields?.About;
     // console.log(records[1]);
-    let rod = records[1].fields?.About;
-// console.log(rod)
-// console.log(document.querySelectorAll('.userName'))
-};
-getRecords();
-// const createRecord = async (fields) =>{
-//     const createdRecord = await table.create(fields);
-//     console.log(minifyRecord(createdRecord));
-// };
-// createRecord({
-//     Username: "Promise",
-//     // Profession: document.getElementById("profession").value ,
-//     // About: document.getElementById("userDesc").value,
-//     Profession: 'Promise',
-// })
-// const updateRecord =async(id, fields) =>{
-//     const updatedRecord = await table.update(id, fields);
-//     console.log(minifyRecord(updatedRecord));
-//     updateRecord('recIqYPwWwLQO505x',{
-//         Username: 'Updated!!'
-//     })
-// }
-const minifyRecord = (record)=>{
-    return {
-        id: record.id,
-        fields: record.fields
-    };
-};
-let Register = ()=>{
-    let name = document.getElementById("name").value;
-    // let name = document.querySelector('#name').value;
-    let userImage = document.querySelector("#userImage").value;
-    let profession = document.querySelector("profession").value;
-    let about = document.querySelector("userDesc").value;
-    // let  = document.querySelector('userDesc').value;
-    console.log(name, userImage, profession, about);
-};
-function myFunction() {
-    var x = document.getElementById("myForm");
-    var txt = "";
-    var i;
-    for(i = 0; i < x.length; i++)txt = txt + x.elements[i].value + "<br>";
-    document.getElementById("demo").innerHTML = txt;
-} // table.create([
+    // let rod = records[0]?.fields?.About;
+    // console.log(rod)
+    // console.log(document.querySelectorAll('.userName'))
+    return records;
+}; // getRecords(); 
+ // const updateRecord =async(id, fields) =>{
+ //     const updatedRecord = await table.update(id, fields);
+ //     console.log(minifyRecord(updatedRecord));
+ //     updateRecord('recIqYPwWwLQO505x',{
+ //         Username: 'Updated!!'
+ //     })
+ // }
+ // let Register = ()=> {
+ //     let name = document.getElementById('name').value;
+ //     // let name = document.querySelector('#name').value;
+ //     let userImage = document.querySelector('#userImage').value;
+ //     let profession = document.querySelector('profession').value;
+ //     let about = document.querySelector('userDesc').value;
+ //     // let  = document.querySelector('userDesc').value;
+ //     console.log(name,userImage,profession,about)
+ // }
+ // function myFunction() {
+ //     var x = document.getElementById("myForm");
+ //     var txt = "";
+ //     var i;
+ //     for (i = 0; i < x.length; i++) {
+ //       txt = txt + x.elements[i].value + "<br>";
+ //     }
+ //     document.getElementById("demo").innerHTML = txt;
+ //   }
+ // table.create([
  //     {
  //       "fields": {
  //         "Feature": "Name",
@@ -628,7 +608,7 @@ function myFunction() {
  //     });
  //   });
 
-},{"airtable":"7K3SL"}],"7K3SL":[function(require,module,exports) {
+},{"airtable":"7K3SL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7K3SL":[function(require,module,exports) {
 var global = arguments[3];
 (function(f) {
     var g;
@@ -4055,6 +4035,36 @@ var global = arguments[3];
         "airtable"
     ])("airtable");
 });
+
+},{}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["6HPYv","5f1PK"], "5f1PK", "parcelRequiree89c")
 
