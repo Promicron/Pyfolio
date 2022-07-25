@@ -11,5 +11,9 @@
   "dependencies": {
     "airtable": "^0.11.4",
     "parcel": "^2.6.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14"
   }
 }
