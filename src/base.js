@@ -36,25 +36,6 @@ export const getRecords = async() => {
 // }
 
 
-// let Register = ()=> {
-//     let name = document.getElementById('name').value;
-//     // let name = document.querySelector('#name').value;
-//     let userImage = document.querySelector('#userImage').value;
-//     let profession = document.querySelector('profession').value;
-//     let about = document.querySelector('userDesc').value;
-//     // let  = document.querySelector('userDesc').value;
-
-//     console.log(name,userImage,profession,about)
-// }
-// function myFunction() {
-//     var x = document.getElementById("myForm");
-//     var txt = "";
-//     var i;
-//     for (i = 0; i < x.length; i++) {
-//       txt = txt + x.elements[i].value + "<br>";
-//     }
-//     document.getElementById("demo").innerHTML = txt;
-//   }
 // table.create([
 //     {
 //       "fields": {

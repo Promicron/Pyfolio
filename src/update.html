@@ -22,7 +22,7 @@
             </div>
             <div class="modal-body">
                 <h4 class="text-center">NB: Leave fields you do not wish to change blank.</h3>
-                <form action="" onsubmit="collectData()" id="form">
+                <form action="" id="form">
                     <div class="container row ">
                       <div class="mb-3">
                         <label for="username" class="form-label fw-bold fs-5">Name</label>
@@ -58,8 +58,8 @@
               <a href="home.html">
                 <button type="button" class="btn btn-secondary">Back</button>
               </a>
-            <a href="dashboard.html">
-                <button type="button" class="btn btn-success">Submit</button>
+            <a href="home.html">
+                <button type="submit" class="btn btn-success" id="subBtn">Submit</button>
             </a>
             </div>
         </div>
@@ -70,7 +70,7 @@
                 $('#staticBackdrop').modal('show');
             });
     </script>
-    <script type="module" src="base.js"></script>
+    <script type="module" src="update.js"></script>
     <script src="script.js"></script>
 
 </body>
