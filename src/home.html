@@ -213,20 +213,22 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          <div class="mb-3">
-                            <label for="sample-filename" class="form-label fw-bold fs-5">Show your works</label>
-                            <input type="text" class="form-control py-2" name="sample-filename" id="" placeholder="Work Title" required>
-                            <label for="sample-filename" class="form-label fw-bold fs-5 pt-2">Work Description</label>
-                            <textarea class="form-control" id="user-desc" rows="5" placeholder="Write a description of your work or a comment. "></textarea>
-                            <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload an image</label>
-                            <input type="file" class="form-control py-2" name="sample-file" id="" required>
-                            <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload a file</label>
-                            <input type="file" class="form-control py-2" name="sample-file" id="" placeholder="Uplaod file">
-                          </div>
+                          <form action="" id="addForm">
+                            <div class="mb-3">
+                              <label for="sample-filename" class="form-label fw-bold fs-5">Show your works</label>
+                              <input type="text" class="form-control py-2" name="filename" id="filename" placeholder="Work Title" required>
+                              <label for="sample-filename" class="form-label fw-bold fs-5 pt-2">Work Description</label>
+                              <textarea class="form-control" id="fileDesc" rows="5" placeholder="Write a description of your work or a comment. "></textarea>
+                              <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload an image</label>
+                              <input type="file" class="form-control py-2" name="fileImage" id="fileImage" required>
+                              <label for="sample-file" class="form-label fw-bold fs-5 pt-2 ">Upload a file</label>
+                              <input type="file" class="form-control py-2" name="sampleFile" id="sampleFile" placeholder="Uplaod file">
+                            </div>
+                          </form>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-success" onclick="addCard()">Save changes</button>
+                          <button type="submit" class="btn btn-success" id="addBtn" onclick="addCard()">Save changes</button>
                         </div>
                       </div>
                     </div>

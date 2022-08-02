@@ -1,4 +1,4 @@
-6509
+6512
 95C:\Users\Promise\Documents\Pyro Port\node_modules\css-select\lib\pseudo-selectors\subselects.js133005511239070574 0
 70C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\_baseSlice.js133005512347256253 0
 46C:\Users\Promise\Documents\Pyro Port\.cache\84133029102090417907 1
@@ -8,7 +8,7 @@
 88C:\Users\Promise\Documents\Pyro Port\node_modules\cosmiconfig\dist\ExplorerBase.d.ts.map133005511247551746 0
 87C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-merge-longhand\types\lib\decl133031843496521095 1
 71C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\flattenDeep.js133005512377213550 0
-41C:\Users\Promise\Documents\Pyro Port\dist133036930135175309 1
+41C:\Users\Promise\Documents\Pyro Port\dist133039274138843319 1
 74C:\Users\Promise\Documents\Pyro Port\node_modules\abortcontroller-polyfill133005511244483391 1
 79C:\Users\Promise\Documents\Pyro Port\node_modules\weak-lru-cache\LRFUExpirer.js133005511182014202 0
 88C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\minmaxwh.js133005511581099302 0
@@ -61,7 +61,7 @@
 56C:\Users\Promise\Documents\Pyro Port\node_modules\semver133005511210017720 1
 93C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\css-gradients.js133005511477353339 0
 58C:\Users\Promise\Documents\Pyro Port\node_modules\airtable133005512340560085 1
-50C:\Users\Promise\Documents\Pyro Port\src\script.js133031816750358363 0
+50C:\Users\Promise\Documents\Pyro Port\src\script.js133039269564920411 0
 67C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\fp\some.js133005512398587783 0
 56C:\Users\Promise\Documents\Pyro Port\node_modules\@lezer133005511125768616 1
 74C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-value-parser\lib133005511220806942 1
@@ -71,7 +71,7 @@
 106C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\core\test\fixtures\invalid-target-source-missing133005511479302214 1
 60C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\fs133005511260375486 1
 84C:\Users\Promise\Documents\Pyro Port\node_modules\type-fest\ts41\delimiter-case.d.ts133005511237581426 0
-40C:\Users\Promise\Documents\Pyro Port\src133036915424173935 1
+40C:\Users\Promise\Documents\Pyro Port\src133039267963940887 1
 67C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\toPairs.js133005512409745125 0
 49C:\Users\Promise\Documents\Pyro Port\node_modules133031843455493351 1
 46C:\Users\Promise\Documents\Pyro Port\.cache\6d133029102089518423 1
@@ -90,7 +90,7 @@
 78C:\Users\Promise\Documents\Pyro Port\node_modules\type-fest\source\opaque.d.ts133005511310174052 0
 96C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\node-resolver-core\test\fixture\foo.js133005511316000720 0
 70C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\_hashClear.js133005512356274887 0
-50C:\Users\Promise\Documents\Pyro Port\src\home.html133036914143711030 0
+50C:\Users\Promise\Documents\Pyro Port\src\home.html133039268085719078 0
 63C:\Users\Promise\Documents\Pyro Port\node_modules\cssnano-utils133031843477432154 1
 81C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\core\test\test-utils.js133005511467584368 0
 93C:\Users\Promise\Documents\Pyro Port\node_modules\stylehacks\src\plugins\mediaSlash0Slash9.js133031843481899841 0
@@ -135,7 +135,7 @@
 58C:\Users\Promise\Documents\Pyro Port\src\registration.html133031801974948661 0
 59C:\Users\Promise\Documents\Pyro Port\node_modules\callsites133005511185052454 1
 98C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-selector-parser\dist\selectors\pseudo.js133031843487391596 0
-67C:\Users\Promise\Documents\Pyro Port\dist\user-view.44983732.js.map133036929647411699 0
+67C:\Users\Promise\Documents\Pyro Port\dist\user-view.44983732.js.map133039269567359961 0
 72C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-convert-values133031843478652026 1
 77C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio\loving.jpg133036929646902016 0
 78C:\Users\Promise\Documents\Pyro Port\node_modules\nth-check\lib\esm\index.d.ts133005511308425049 0
@@ -153,7 +153,7 @@
 80C:\Users\Promise\Documents\Pyro Port\node_modules\nth-check\lib\compile.d.ts.map133005511225943986 0
 91C:\Users\Promise\Documents\Pyro Port\node_modules\css-tree\lib\syntax\node\ClassSelector.js133005511246632158 0
 84C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-minify-params\src\index.js133031843470101649 0
-55C:\Users\Promise\Documents\Pyro Port\src\user-view.html133032999130478755 0
+55C:\Users\Promise\Documents\Pyro Port\src\user-view.html133036932839305140 0
 77C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\transformer-css\lib133005511162649228 1
 69C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\pullAllBy.js133005512394490129 0
 74C:\Users\Promise\Documents\Pyro Port\node_modules\postcss\lib\processor.js133031843486107422 0
@@ -484,6 +484,7 @@
 99C:\Users\Promise\Documents\Pyro Port\node_modules\htmlnano\lib\modules\removeRedundantAttributes.js133005511319810149 0
 66C:\Users\Promise\Documents\Pyro Port\node_modules\msgpackr-extract133005511202741891 1
 94C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\css-snappoints.js133005511559336807 0
+62C:\Users\Promise\Documents\Pyro Port\dist\home.c4e28c18.js.map133039241906492305 0
 75C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\_baseSortedUniq.js133005512347546082 0
 75C:\Users\Promise\Documents\Pyro Port\node_modules\terser\lib\mozilla-ast.js133005511359962639 0
 81C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\regions\TW.js133005511594876760 0
@@ -605,7 +606,7 @@
 75C:\Users\Promise\Documents\Pyro Port\node_modules\util-deprecate\History.md133031843478692008 0
 76C:\Users\Promise\Documents\Pyro Port\node_modules\nullthrows\nullthrows.d.ts133005511171619626 0
 79C:\Users\Promise\Documents\Pyro Port\node_modules\css-select\lib\types.d.ts.map133005511313242300 0
-59C:\Users\Promise\Documents\Pyro Port\dist\1488.2c02959d.gif133036929646971951 0
+59C:\Users\Promise\Documents\Pyro Port\dist\1488.2c02959d.gif133039266502215291 0
 89C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\packager-css\src\CSSPackager.js133005511177426296 0
 65C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\watcher133005511413170791 1
 106C:\Users\Promise\Documents\Pyro Port\node_modules\@swc\helpers\src\_class_apply_descriptor_destructure.mjs133005511441387973 0
@@ -1105,7 +1106,7 @@
 97C:\Users\Promise\Documents\Pyro Port\node_modules\@swc\helpers\lib\_class_apply_descriptor_get.js133005511242854328 0
 82C:\Users\Promise\Documents\Pyro Port\node_modules\htmlnano\lib\modules\minifyJs.js133005511256917498 0
 88C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\auxclick.js133005511360682258 0
-67C:\Users\Promise\Documents\Pyro Port\dist\pyro-profile.7041f48d.jpg133036929647281770 0
+67C:\Users\Promise\Documents\Pyro Port\dist\pyro-profile.7041f48d.jpg133039266503374623 0
 85C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-selector-parser\LICENSE-MIT133031843467213307 0
 67C:\Users\Promise\Documents\Pyro Port\node_modules\term-size\license133005511175817223 0
 103C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\intersectionobserver-v2.js133005511573916430 0
@@ -2158,7 +2159,7 @@
 109C:\Users\Promise\Documents\Pyro Port\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.c133005511355993781 0
 64C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\pick.js133005512393680596 0
 68C:\Users\Promise\Documents\Pyro Port\node_modules\commander\index.js133005511172169315 0
-82C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio\portfolio-7.jpg133036929647031930 0
+82C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio\portfolio-7.jpg133039266503334647 0
 88C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-selector-parser\dist\selectors133031843490854339 1
 78C:\Users\Promise\Documents\Pyro Port\node_modules\node-addon-api\noexcept.gypi133005511185482209 0
 97C:\Users\Promise\Documents\Pyro Port\node_modules\event-target-shim\dist\event-target-shim.umd.js133005512296692570 0
@@ -2280,7 +2281,7 @@
 77C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-normalize-url\types133031843474730445 1
 87C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-normalize-unicode\LICENSE-MIT133031843467343234 0
 85C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-normalize-unicode\README.md133031843471787413 0
-63C:\Users\Promise\Documents\Pyro Port\dist\user-view.44983732.js133036929647291767 0
+63C:\Users\Promise\Documents\Pyro Port\dist\user-view.44983732.js133039269567270029 0
 96C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-normalize-timing-functions\LICENSE-MIT133031843467333242 0
 46C:\Users\Promise\Documents\Pyro Port\.cache\e6133029102093226298 1
 94C:\Users\Promise\Documents\Pyro Port\node_modules\postcss-normalize-timing-functions\README.md133031843473441193 0
@@ -3727,7 +3728,7 @@
 71C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\fp\isLength.js133005512383547129 0
 68C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\fp\isMap.js133005512383617088 0
 95C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\background-sync.js133005511389268207 0
-66C:\Users\Promise\Documents\Pyro Port\dist\portfolio-6.0e684e09.jpg133036929646911995 0
+66C:\Users\Promise\Documents\Pyro Port\dist\portfolio-6.0e684e09.jpg133039266503304661 0
 70C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\fp\isMatch.js133005512383677059 0
 68C:\Users\Promise\Documents\Pyro Port\node_modules\lodash\fp\isNaN.js133005512383806985 0
 67C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\types\lib133005511218728118 1
@@ -5089,7 +5090,7 @@
 141C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\b\index.js133005511363340678 0
 87C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\picture.js133005511585236972 0
 84C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\ping.js133005511585266917 0
-59C:\Users\Promise\Documents\Pyro Port\dist\home.61d3354a.css133036929647281770 0
+59C:\Users\Promise\Documents\Pyro Port\dist\home.61d3354a.css133039266503154747 0
 89C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\png-alpha.js133005511585476798 0
 69C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\events\test133005511238071150 1
 87C:\Users\Promise\Documents\Pyro Port\node_modules\caniuse-lite\data\features\pointer.js133005511585646723 0
@@ -6160,7 +6161,7 @@
 87C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\core\lib\public\Dependency.js133005511394670160 0
 88C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\core\lib\public\Environment.js133005511412981266 0
 83C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\core\lib\public\Target.js133005511465295678 0
-56C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\mp3133036929647151852 1
+56C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\mp3133039266502225278 1
 83C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\config-default\index.json133005511181144693 0
 86C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\config-default\test\.babelrc133005511160250720 0
 92C:\Users\Promise\Documents\Pyro Port\node_modules\@parcel\config-default\test\config.test.js133005511174477986 0
@@ -6310,37 +6311,39 @@
 63C:\Users\Promise\Documents\Pyro Port\dist\dashboard.8657227f.js133031850995985084 0
 56C:\Users\Promise\Documents\Pyro Port\dist\dashboard.html133036927998244045 0
 62C:\Users\Promise\Documents\Pyro Port\dist\hero-bg.d90c05b0.jpg133010103022028562 0
-63C:\Users\Promise\Documents\Pyro Port\dist\home.61d3354a.css.map133036929647411699 0
+63C:\Users\Promise\Documents\Pyro Port\dist\home.61d3354a.css.map133039266503334647 0
 58C:\Users\Promise\Documents\Pyro Port\dist\home.adbc2cbf.js133031939428100727 0
-51C:\Users\Promise\Documents\Pyro Port\dist\home.html133036929647121866 0
-52C:\Users\Promise\Documents\Pyro Port\dist\index.html133036929647132081 0
-59C:\Users\Promise\Documents\Pyro Port\dist\Misc.5f5fd3d4.jpg133036929647132081 0
+58C:\Users\Promise\Documents\Pyro Port\dist\home.c4e28c18.js133039274138853330 0
+51C:\Users\Promise\Documents\Pyro Port\dist\home.html133039268094785046 0
+52C:\Users\Promise\Documents\Pyro Port\dist\index.html133039266504323546 0
+61C:\Users\Promise\Documents\Pyro Port\dist\loving.122c075d.jpg133039266503164746 0
+59C:\Users\Promise\Documents\Pyro Port\dist\Misc.5f5fd3d4.jpg133039266503344646 0
 59C:\Users\Promise\Documents\Pyro Port\dist\Misc.c7ef067e.jpg133031850995655276 0
 66C:\Users\Promise\Documents\Pyro Port\dist\portfolio-6.a011c23b.jpg133031850995745231 0
 66C:\Users\Promise\Documents\Pyro Port\dist\profile-img.58fc851f.jpg133031850995675282 0
-63C:\Users\Promise\Documents\Pyro Port\dist\pyfolio2.c4fac0e9.jpg133036929646902016 0
+63C:\Users\Promise\Documents\Pyro Port\dist\pyfolio2.c4fac0e9.jpg133039266503304661 0
 59C:\Users\Promise\Documents\Pyro Port\dist\registration.html133031850088559737 0
 60C:\Users\Promise\Documents\Pyro Port\dist\script.e9f734e2.js133031850995635287 0
 53C:\Users\Promise\Documents\Pyro Port\dist\signup.html133031168751852105 0
 62C:\Users\Promise\Documents\Pyro Port\dist\src.41b6e970.css.map133031850996025485 0
-60C:\Users\Promise\Documents\Pyro Port\dist\update.66f84be1.js133036929647391704 0
-64C:\Users\Promise\Documents\Pyro Port\dist\update.66f84be1.js.map133036929647511653 0
-53C:\Users\Promise\Documents\Pyro Port\dist\update.html133036930135155313 0
+60C:\Users\Promise\Documents\Pyro Port\dist\update.66f84be1.js133039266502565092 0
+64C:\Users\Promise\Documents\Pyro Port\dist\update.66f84be1.js.map133039266502764997 0
+53C:\Users\Promise\Documents\Pyro Port\dist\update.html133039266504313565 0
 67C:\Users\Promise\Documents\Pyro Port\dist\user-view.9a9f1e5e.js.map133031939428230667 0
-63C:\Users\Promise\Documents\Pyro Port\dist\user-view.adbc2cbf.js133036929647301765 0
-67C:\Users\Promise\Documents\Pyro Port\dist\user-view.adbc2cbf.js.map133036929647511653 0
-56C:\Users\Promise\Documents\Pyro Port\dist\user-view.html133036929647121866 0
+63C:\Users\Promise\Documents\Pyro Port\dist\user-view.adbc2cbf.js133039266502565092 0
+67C:\Users\Promise\Documents\Pyro Port\dist\user-view.adbc2cbf.js.map133039266502834941 0
+56C:\Users\Promise\Documents\Pyro Port\dist\user-view.html133039266504313565 0
 51C:\Users\Promise\Documents\Pyro Port\dist\__\assets133031850995865158 1
 55C:\Users\Promise\Documents\Pyro Port\dist\__\assets\img133031850995915125 1
 82C:\Users\Promise\Documents\Pyro Port\.cache\92\ed269496a2c9a2bdf021084bda247a.json133029112372366220 0
 65C:\Users\Promise\Documents\Pyro Port\dist\__\assets\img\portfolio133031850996025485 1
 81C:\Users\Promise\Documents\Pyro Port\dist\__\assets\img\portfolio\portfolio-1.jpg133031850995975095 0
 81C:\Users\Promise\Documents\Pyro Port\dist\__\assets\img\portfolio\portfolio-2.jpg133031850997751382 0
-68C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\mp3\loving.mpeg133036929646921979 0
-67C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\mp3\pyro1.mpeg133036929646931979 0
-66C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio133036929647191821 1
+68C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\mp3\loving.mpeg133039266501265842 0
+67C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\mp3\pyro1.mpeg133039266502205294 0
+66C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio133039266503364623 1
 82C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio\portfolio-1.jpg133036927996754874 0
-82C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio\portfolio-3.jpg133036929646902016 0
+82C:\Users\Promise\Documents\Pyro Port\dist\up_\assets\img\portfolio\portfolio-3.jpg133039266503154747 0
 47C:\Users\Promise\Documents\Pyro Port\assets\css132994540481404675 1
 47C:\Users\Promise\Documents\Pyro Port\assets\img133032996434902205 1
 59C:\Users\Promise\Documents\Pyro Port\assets\mp3\loving.mpeg133034735844010117 0
