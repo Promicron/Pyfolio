@@ -36,25 +36,25 @@
   })
 })();
 
-const addBtn =  document.querySelector('#addBtn')
+// const addBtn =  document.querySelector('#addBtn')
 
-addBtn.addEventListener("click", () => {
+// addBtn.addEventListener("click", () => {
 
-  const filename = document.querySelector("#filename").value
-  // let userImage 
-  const userImageFile = document.querySelector("#fileImage").files[0]
-  // console.log(userImageFile)
-  // getBase64(userImageFile).then(
-  //     data => {
-  //         userImage = data
-  //     }
-  //   );
-  const fileDesc = document.querySelector("#fileDesc").value;
-  const file = document.querySelector("#sampleFile").files;
+//   const filename = document.querySelector("#filename").value
+//   let userImage 
+//   const userImageFile = document.querySelector("#fileImage").files[0]
+//   console.log(userImageFile)
+//   getBase64(userImageFile).then(
+//       data => {
+//           userImage = data
+//       }
+//     );
+//   const fileDesc = document.querySelector("#fileDesc").value;
+//   const file = document.querySelector("#sampleFile").files;
 
-  console.log(filename, fileDesc, file)
-  addCard(filename, fileDesc, file)
-})
+//   console.log(filename, fileDesc, file)
+//   addCard(filename, fileDesc, file)
+// })
 
 // function getBase64(file) {
 //   return new Promise((resolve, reject) => {
@@ -65,27 +65,26 @@ addBtn.addEventListener("click", () => {
 //   });
 // }
 
-function addCard(filename, fileDesc, file){
-  var cardRow = document.createElement('div')
-  cardRow.setAttribute("class", "col")
-  var cardRowContent = `
-      <div class="col">
-        <div class="card h-100">
-          <img src="/portfolio-6.0e684e09.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fw-bold text-success" id="card-name2">${filename}</h5>
-            <p class="card-text">${fileDesc}</p>
-            <div class="sample-file">
-              <span class="file fs-5 text-success" id="file">${file.name}</span>
-              <a href="${file}" download="${file}">
-                  <i class="bi bi-download btn p-0 fs-4 float-end text-success"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      `
-  cardRow.innerHTML = cardRowContent
-  document.querySelector('.row').appendChild(cardRow);
-  // document.body.appendChild(cardRow);
-}
+// function addCard(filename, fileDesc, file){
+//   var cardRow = document.createElement('div')
+//   cardRow.setAttribute("class", "col")
+//   var cardRowContent = `
+//       <div class="col">
+//         <div class="card h-100">
+//           <img src="/portfolio-6.0e684e09.jpg" class="card-img-top" alt="...">
+//           <div class="card-body">
+//             <h5 class="card-title fw-bold text-success" id="card-name2">${filename}</h5>
+//             <p class="card-text">${fileDesc}</p>
+//             <div class="sample-file">
+//               <span class="file fs-5 text-success" id="file">${file.name}</span>
+//               <a href="${file}" download="${file}">
+//                   <i class="bi bi-download btn p-0 fs-4 float-end text-success"></i>
+//               </a>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       `
+//   cardRow.innerHTML = cardRowContent
+//   document.querySelector('.row').appendChild(cardRow);
+// }
